@@ -9,7 +9,7 @@ Recurrent Neural Network, or RNN, is one of the most useful neural network struc
 Long-Short-Term Memory, known as LSTM, is one derivative of original RNN. LSTM can, as its name shows, store infomation learned from the data like its "memory". Just like human memory, the memory of LSTM enables the model to learn from new data based on their memory, instead of training the model from zero. This mechanism dramtically increase the models' performance and reduce the training time.
 
 ### Try with more data
-If you would like to train the model on the whole language, play with ![WMT10 French-English corpus]http://www.statmt.org/wmt10/training-giga-fren.tar to train your model. One thing you should notice before you start: this will take DAYS to train your model even on GPU.
+If you would like to train the model on the whole language, play with [WMT10 French-English corpus!]http://www.statmt.org/wmt10/training-giga-fren.tar to train your model. One thing you should notice before you start: this will take DAYS to train your model even on GPU.
 
 ### Files descriptions
 * assistance.py: Functions to load and process data.
