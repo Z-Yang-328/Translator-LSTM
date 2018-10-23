@@ -18,3 +18,4 @@ If you would like to train the model on the whole language, play with ![WMT10 Fr
 * build_network.py: Steps to build the network and build sequence models. Define each layers in the network.
 * train_network.py: To train the network using functions built in build_network.py.
 * main.py: To put everything together, download all other files and run main.py to build the translator.
+* translator.ipynb: An easy-to-present version of the project. Check out the data and results in the notebook.
