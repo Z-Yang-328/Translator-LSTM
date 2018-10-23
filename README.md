@@ -12,10 +12,10 @@ Long-Short-Term Memory, known as LSTM, is one derivative of original RNN. LSTM c
 If you would like to train the model on the whole language, play with [WMT10 French-English corpus!](http://www.statmt.org/wmt10/training-giga-fren.tar) to train your model. One thing you should notice before you start: this will take DAYS to train your model even on GPU.
 
 ### Files descriptions
-* `<addr>`assistance.py: Functions to load and process data.
-* `<addr>`preprocessing.py: Function to preprocess data, the obtained data can feed in the model.
-* `<addr>`check_tensorflow_gpu.py: To check Tensorflow version and access to GPU.
-* `<addr>`build_network.py: Steps to build the network and build sequence models. Define each layers in the network.
-* `<addr>`train_network.py: To train the network using functions built in build_network.py.
-* `<addr>`main.py: To put everything together, download all other files and run main.py to build the translator.
-* `<addr>`translator.ipynb: An easy-to-present version of the project. Check out the data and results in the notebook.
+* `assistance.py`: Functions to load and process data.
+* `preprocessing.py`: Function to preprocess data, the obtained data can feed in the model.
+* `check_tensorflow_gpu.py`: To check Tensorflow version and access to GPU.
+* `build_network.py`: Steps to build the network and build sequence models. Define each layers in the network.
+* `train_network.py`: To train the network using functions built in `build_network.py`.
+* `main.py`: To put everything together, download all other files and run `main.py` to build the translator.
+* `translator.ipynb`: An easy-to-present version of the project. Check out the data and results in the notebook.
